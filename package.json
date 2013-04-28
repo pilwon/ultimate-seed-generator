@@ -1,6 +1,6 @@
 {
   "name": "generator-ultimate",
-  "description": "Yeoman Generator for ultimate-seed: the ultimate JavaScript/Node.js full-stack seed that makes web developers insanely productive.",
+  "description": "Yeoman Generator for ultimate-seed - the ultimate JavaScript/Node.js full-stack seed that makes web developers insanely productive.",
   "version": "0.1.1",
   "license": "MIT",
   "author": {
