@@ -1,6 +1,4 @@
-# Yeoman Generator for `ultimate-seed`
-
-This is a Yeoman generator for [ultimate-seed](https://github.com/pilwon/ultimate-seed).
+# Yeoman Generator for [ultimate-seed](https://github.com/pilwon/ultimate-seed)
 
 ## Usage
 
