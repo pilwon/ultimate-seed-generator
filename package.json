@@ -1,0 +1,57 @@
+{
+  "name": "generator-ultimate",
+  "description": "Yeoman Generator for ultimate-seed: the ultimate JavaScript/Node.js full-stack seed that makes web developers insanely productive.",
+  "version": "0.1.1",
+  "license": "MIT",
+  "author": {
+    "name": "Pilwon Huh",
+    "email": "pilwon@gmail.com"
+  },
+  "homepage": "https://github.com/pilwon/ultimate-seed-generator",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pilwon/ultimate-seed-generator.git"
+  },
+  "main": "app/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "javascript",
+    "node.js",
+    "seed",
+    "backbone",
+    "bower",
+    "bootstrap",
+    "compass",
+    "scss",
+    "express",
+    "grunt",
+    "handlebars",
+    "jquery",
+    "jshint",
+    "karma",
+    "livereload",
+    "lodash",
+    "underscore",
+    "mocha",
+    "chai",
+    "marionette",
+    "modernizr",
+    "mongodb",
+    "mongoose",
+    "passport",
+    "facebook",
+    "google",
+    "twitter",
+    "redis",
+    "hiredis",
+    "requirejs",
+    "socket.io",
+    "uglify"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.10.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
