@@ -7,10 +7,10 @@
     "name": "Pilwon Huh",
     "email": "pilwon@gmail.com"
   },
-  "homepage": "https://github.com/pilwon/ultimate-seed-generator",
+  "homepage": "https://github.com/pilwon/node-ultimate-seed-generator",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pilwon/ultimate-seed-generator.git"
+    "url": "git://github.com/pilwon/node-ultimate-seed-generator.git"
   },
   "main": "app/index.js",
   "keywords": [
