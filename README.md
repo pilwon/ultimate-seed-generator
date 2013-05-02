@@ -1,11 +1,4 @@
-```sh
-                                 _      _    _____   _   _       ____   _____   _____
-                                / \ /\ / \  /__ __\ / \ / \__/| /  _ \ /__ __\ /  __/
-                                | | || | |    / \   | | | |\/|| | / \ |  / \   |  \
-                                | \_/| | |_/\ | |   | | | |  || | |-| |  | |   |  /_
-                                \____/ \____/ \_/   \_/ \_/  \| \_/ \ |  \_/   \____\
-
-```
+# ultimate-seed-generator
 
 `ultimate-seed-generator` is a [Yeoman](http://yeoman.io/) Generator for [ultimate-seed](https://github.com/pilwon/node-ultimate-seed).
 
