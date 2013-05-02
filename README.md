@@ -1,6 +1,6 @@
 # ultimate-seed-generator
 
-`ultimate-seed-generator` is a [Yeoman](http://yeoman.io/) Generator for [ultimate-seed](https://github.com/pilwon/node-ultimate-seed).
+[Yeoman](http://yeoman.io/) Generator for [ultimate-seed](https://github.com/pilwon/node-ultimate-seed).
 
 ## Usage
 
