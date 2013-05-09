@@ -12,4 +12,4 @@
 
 ## License
 
-  `ultimate-seed-generator` is released under the MIT License.
+  `ultimate-seed-generator` is released under the [MIT License](http://opensource.org/licenses/MIT).
