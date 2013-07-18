@@ -1,5 +1,7 @@
 # ultimate-seed-generator
 
+[![NPM](https://nodei.co/npm/generator-ultimate.png?downloads=false&stars=false)](https://npmjs.org/package/generator-ultimate) [![NPM](https://nodei.co/npm-dl/generator-ultimate.png?months=6)](https://npmjs.org/package/generator-ultimate)
+
 [Yeoman](http://yeoman.io/) Generator for [ultimate-seed](https://github.com/pilwon/node-ultimate-seed).
 
 ## Usage
