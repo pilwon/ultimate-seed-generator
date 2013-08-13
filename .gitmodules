@@ -1,3 +1,0 @@
-[submodule "app/templates"]
-	path = app/templates
-	url = git://github.com/pilwon/node-ultimate-seed.git
