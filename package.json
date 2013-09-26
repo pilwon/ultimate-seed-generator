@@ -1,12 +1,21 @@
 {
   "name": "generator-ultimate",
-  "description": "ULTIMATE Yeoman generator for ultimate-seed - full-stack Node.js seed that makes web developers insanely productive.",
-  "version": "0.2.21",
+  "description": "ULTIMATE Yeoman generator for ultimate-seed - full-stack Angular/Express seed that makes web developers insanely productive.",
+  "version": "0.3.1",
   "license": "MIT",
-  "author": {
-    "name": "Pilwon Huh",
-    "email": "pilwon@gmail.com"
-  },
+  "author": "Pilwon Huh <pilwon@gmail.com>",
+  "contributors": [
+    {
+      "name": "Pilwon Huh",
+      "email": "pilwon@gmail.com",
+      "url": "https://github.com/pilwon"
+    },
+    {
+      "name": "Brian Park",
+      "email": "yaru22@gmail.com",
+      "url": "https://github.com/yaru22"
+    }
+  ],
   "homepage": "https://github.com/pilwon/ultimate-seed-generator",
   "repository": {
     "type": "git",
@@ -18,9 +27,9 @@
     "javascript",
     "node.js",
     "seed",
+    "angular",
+    "angular-ui",
     "source-maps",
-    "backbone",
-    "marionette",
     "bootstrap",
     "bower",
     "browserify",
@@ -30,6 +39,8 @@
     "handlebars",
     "jquery",
     "jshint",
+    "karma",
+    "mocha",
     "less",
     "less-hat",
     "livereload",
