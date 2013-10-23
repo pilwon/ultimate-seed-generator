@@ -1,7 +1,7 @@
 {
   "name": "generator-ultimate",
   "description": "ULTIMATE Yeoman generator for ultimate-seed - full-stack AngularJS + Node.js/Express seed that makes web developers insanely productive.",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "license": "MIT",
   "author": "Pilwon Huh <pilwon@gmail.com>",
   "contributors": [
