@@ -1,0 +1,6 @@
+#
+# .npmignore
+#
+
+/.gitmodules
+/.npmignore
