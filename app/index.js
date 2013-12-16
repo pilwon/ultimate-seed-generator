@@ -1,35 +1,36 @@
-var fs = require('fs');
+'use strict';
+var util = require('util');
 var path = require('path');
+var yeoman = require('yeoman-generator');
 
-var Generator = module.exports = function() {
-  var prompts = [];
-  var files   = this.expandFiles('**/*', { cwd: this.sourceRoot(), dot: true });
-  var ignores = [
-    '.git',
-    'LICENSE',
-    'README.md',
-  ];
 
-  // this.argument('tarFile');
-  if (this.tarFile) {
-    this.tarball(this.tarFile, process.cwd(), function (err) {
-      if (err) {
-        throw err;
-      }
-    });
-  }
+var UltimateGenerator = module.exports = function UltimateGenerator(args, options, config) {
+  yeoman.generators.Base.apply(this, arguments);
 
-  this.package = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
+  this.on('end', function () {
+    this.installDependencies({ skipInstall: options['skip-install'] });
+  });
 
-  this.log.writeln('Generating from ' + 'Generator Ultimate'.cyan + ' v' + this.package.version.cyan + '...');
+  this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
+};
 
-  files.forEach(function(file) {
-    if (ignores.indexOf(file) !== -1) {
+util.inherits(UltimateGenerator, yeoman.generators.Base);
+
+UltimateGenerator.prototype.askFor = function askFor() {
+  // have Yeoman greet the user.
+  console.log(this.yeoman);
+};
+
+UltimateGenerator.prototype.app = function app() {
+  this.expandFiles('**/*', { cwd: this.sourceRoot(), dot: true }).forEach(function (file) {
+    if ([
+      '.git'
+    ].indexOf(file) !== -1) {
       return;
     }
-
     this.copy(file, file);
   }, this);
 };
 
-Generator.name = "Generator Ultimate";
+UltimateGenerator.prototype.projectfiles = function projectfiles() {
+};
